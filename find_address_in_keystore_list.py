@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
-#########################################################################
-## Modify each line in a file according to a given rule and output    ###
-## Rule is defined in change_content function                         ###
-##                                                                    ###
-## Usage: python file_formatter.py INPUT_FILE_PATH OUTPUT_FILE_PATH   ###
-#########################################################################
+#########################################################################################
+## DESCRIPTION                                                                        ###
+## Intersect a keystore file name list with an address list and output keystore names ###
+##                                                                                    ###
+## Usage:                                                                             ###
+## python file_address_in_keystore.py KEYSTORE_LIST_PATH ADDRESS_LIST_PATH            ###
+#########################################################################################
 
 import sys
 import os
